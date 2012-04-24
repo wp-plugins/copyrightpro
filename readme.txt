@@ -2,9 +2,9 @@
 Contributors: Andres Felipe Perea V.
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5TS4C2GX9WUR6&lc=ES&item_name=Wp%2dcopyrightpro&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: copyright, images, gallery, prevent copy, text, disable right click, prevent select text, wordpress, content, protect, wp no right click plugin
-Requires at least: 3.2.1
-Tested up to: 3.2.1
-Stable tag: 1.0
+Requires at least: 3.3.2
+Tested up to: 3.3.2
+Stable tag: 1.1
 
 If you install CopyRightPro, your content of wordpress will be protected.
 
@@ -25,7 +25,7 @@ CopyrightPro is a plug-in developed by **[Wp-CopyRightPro.Com](http://wp-copyrig
 
 **[Official Website](http://wp-copyrightpro.com/)**
 **[Support](http://wp-copyrightpro.com/)**
-**[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5TS4C2GX9WUR6&lc=ES&item_name=Wp%2dcopyrightpro&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)**
+**[Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5TS4C2GX9WUR6&lc=ES&item_name=puydi&item_number=wpcopyrightpro&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)**
 
 
 == Installation ==
@@ -70,3 +70,6 @@ When activating 100% of the protections, in less than a week, CopyRightPro can r
 
 = 1.0 =
 * Firt version of CopyRightPro
+
+= 1.1 =
+* For wordpress 3.3.2

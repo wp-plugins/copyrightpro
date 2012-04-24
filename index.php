@@ -3,7 +3,7 @@
       Plugin Name: CopyRightPro
       Plugin URI: http://wp-copyrightpro.com/
       Description: CopyRightPro is a free version of Wp-Copyrightpro plug-in that prevents the copying of texts and images from your blog, if you install this plug-in, your content of wordpress will be protected.
-      Version: 1.0
+      Version: 1.1
       Author: Andres Felipe Perea V.
       Author URI: http://wp-copyrightpro.com/
 */
@@ -50,7 +50,49 @@ function copypro_uninstallv1() {
 
 /* FUNCIONES DE PROTECCION */ 
 function copyright_headv1(){
-include ('script.htm');
+
+global $wpdb;
+	$fivesdrafts = $wpdb->get_results("SELECT*FROM copyrightpro");
+
+	foreach ($fivesdrafts as $fivesdraft) {
+			$result[0]=$fivesdraft->copy_click;
+			$result[1]=$fivesdraft->copy_selection;
+	}
+	
+if ($result[0]=="y"){?>
+<script language="Javascript">
+<!-- Begin
+document.oncontextmenu = function(){return false}
+// End -->
+</script>
+<?php }
+
+if ($result[1]=="y"){?>
+<script type="text/javascript">
+// IE Evitar seleccion de texto
+document.onselectstart=function(){
+if (event.srcElement.type != "text" && event.srcElement.type != "textarea" && event.srcElement.type != "password")
+return false
+else return true;
+};
+// FIREFOX Evitar seleccion de texto
+if (window.sidebar){
+document.onmousedown=function(e){
+var obj=e.target;
+if (obj.tagName.toUpperCase() == "INPUT" || obj.tagName.toUpperCase() == "TEXTAREA" || obj.tagName.toUpperCase() == "PASSWORD")
+return true;
+/*else if (obj.tagName=="BUTTON"){
+return true;
+}*/
+else
+return false;
+}
+}
+// End -->
+</script>
+
+<?php }
+
 }
 
 /* PANEL DE CONTROL */
