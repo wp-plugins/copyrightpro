@@ -1,7 +1,7 @@
 <?php
 /*
 	This plug-in was developed by Andrés Perea.
-	Copyright 2010  Wp-copyrightPro, IN  (http://wp-copyrightpro.com/)
+	Copyright 2012  Wp-copyrightPro, IN  (http://wp-copyrightpro.com/)
 	
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by

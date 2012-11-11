@@ -3,14 +3,14 @@
       Plugin Name: CopyRightPro
       Plugin URI: http://wp-copyrightpro.com/
       Description: CopyRightPro is a free version of Wp-Copyrightpro plug-in that prevents the copying of texts and images from your blog, if you install this plug-in, your content of wordpress will be protected.
-      Version: 1.1
+      Version: 1.2
       Author: Andres Felipe Perea V.
       Author URI: http://wp-copyrightpro.com/
 */
 
 /*
 	This plug-in was developed by Andrés Perea.
-	Copyright 2010  Wp-copyrightPro, IN  (http://wp-copyrightpro.com/)
+	Copyright 2012  Wp-copyrightPro, IN  (http://wp-copyrightpro.com/)
 	
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
