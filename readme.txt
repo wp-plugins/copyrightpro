@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5TS4C
 Tags: copyright, images, gallery, prevent copy, text, disable right click, prevent select text, wordpress, content, protect, wp no right click plugin
 Requires at least: 3.4.2
 Tested up to: 3.4.2
-Stable tag: 1.2
+Stable tag: 1.3
 
 If you install CopyRightPro, your content of wordpress will be protected.
 
@@ -53,7 +53,6 @@ This section describes how to install the plugin and get it working.
 
 
 == Screenshots ==
-1. Copyright Plug-in **CopyRightPro**
 
 
 == Frequently Asked Questions ==
@@ -77,3 +76,6 @@ When activating 100% of the protections, in less than a week, CopyRightPro can r
 
 = 1.2 =
 * For wordpress 3.4.2
+
+= 1.3 =
+* Firefox problem solved
