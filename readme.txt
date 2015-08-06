@@ -92,4 +92,4 @@ When activating 100% of the protections, in less than a week, CopyRightPro can r
 * For Wordpress 3.5.1 last Version
 
 = 1.7 =
-* For Wordpress 3.5.1 last Version
+* For Wordpress 4.2.4 last Version
